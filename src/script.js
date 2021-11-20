@@ -1,6 +1,3 @@
-import {validPassword} from "./validPassword";
-import { isUserPresent,get,getUsers } from "./asyncFetch";
-
 const form = document.querySelector("#signupForm");
 const feedback = document.querySelector("#feedback");
 let password;
@@ -14,8 +11,6 @@ form.addEventListener("submit", event => {
     username = document.querySelector("#usernameInput").value;
 
     console.log(`username:${username},password:${password}`);
-
-    // showFeedback()
    
 })
 
