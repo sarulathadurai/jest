@@ -8,6 +8,29 @@ To access examples
 - git checkout test2 - Async Testing
 - git checkout test3 - Class Testing
 
+# Project Setup
+
+install Babel if ES6 import/export needs to get supported
+
+### package.json
+
+For watching the tests
+
+```
+    "scripts": {
+    "test": "jest --watchAll --verbose"
+    }
+```
+
+For getting coverage report
+
+```
+    "scripts": {
+    "test": "jest --coverage"
+    }
+```
+
+
 ### Resources 
 
 - [JEST Documentation](https://jestjs.io/docs/getting-started)
